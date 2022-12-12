@@ -1,0 +1,46 @@
+const getAllStates = async () => {
+  const states = [
+    'Abia',
+    'Adamawa',
+    'Akwa Ibom',
+    'Anambra',
+    'Bauchi',
+    'Benue',
+    'Borno',
+    'Bayelsa',
+    'Cross River',
+    'Delta',
+    'Ebonyi',
+    'Edo',
+    'Ekiti',
+    'Enugu',
+    'Federal Capital Territory',
+    'Gombe',
+    'Jigawa',
+    'Imo',
+    'Kaduna',
+    'Kebbi',
+    'Kano',
+    'Kogi',
+    'Lagos',
+    'Katsina',
+    'Kwara',
+    'Nasarawa',
+    'Niger',
+    'Ogun',
+    'Ondo',
+    'Rivers',
+    'Oyo',
+    'Osun',
+    'Sokoto',
+    'Plateau',
+    'Taraba',
+    'Yobe',
+    'Zamfara',
+  ];
+  return states;
+};
+
+module.exports = {
+  getAllStates,
+};
